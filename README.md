@@ -7,9 +7,6 @@
     <img src="https://img.shields.io/github/followers/Luckystrike561?label=Followers&style=for-the-badge&logo=github&color=58A6FF" alt="GitHub Followers">
   </a>
   <img src="https://komarev.com/ghpvc/?username=Luckystrike561&style=for-the-badge&color=58A6FF" alt="Profile Views">
-  <a href="https://github.com/Luckystrike561?tab=repositories">
-    <img src="https://img.shields.io/badge/Repos-3-58A6FF?style=for-the-badge&logo=github" alt="Repos">
-  </a>
 </p>
 
 ---
@@ -26,8 +23,6 @@ interests:
   - Embedded Systems (ESP32)
   - Home Automation
   - Self-Hosting
-
-current_project: Shield - Marvel-inspired homelab monorepo
 ```
 
 ---
@@ -45,20 +40,6 @@ current_project: Shield - Marvel-inspired homelab monorepo
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,sqlite,grafana,prometheus,cloudflare&theme=dark" alt="Infrastructure" />
 </p>
-
----
-
-### Featured Project
-
-<a href="https://github.com/Luckystrike561/shield">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Luckystrike561&repo=shield&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF" alt="Shield Repo" />
-</a>
-
-**Shield** - A Marvel-inspired monorepo containing:
-- **Captain** - ESP32 GPS dog tracker with Go backend
-- **Hulk** - Production Kubernetes homelab with GitOps
-- **Ironheart** - Personal dotfiles & development environment
-- **Shuri** - Lab environment with k3d
 
 ---
 
@@ -80,34 +61,6 @@ current_project: Shield - Marvel-inspired homelab monorepo
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Luckystrike561&theme=github-compact&hide_border=true&bg_color=0d1117&color=58A6FF&line=58A6FF&point=c9d1d9&area=true&area_color=58A6FF" alt="Activity Graph" />
 </p>
-
----
-
-### Homelab Stack
-
-```
-                    ┌─────────────────────────────────────┐
-                    │           CLOUDFLARE                │
-                    │         (DNS & Tunnel)              │
-                    └─────────────┬───────────────────────┘
-                                  │
-                    ┌─────────────▼───────────────────────┐
-                    │           TRAEFIK                   │
-                    │       (Ingress Controller)          │
-                    └─────────────┬───────────────────────┘
-                                  │
-        ┌─────────────────────────┼─────────────────────────┐
-        │                         │                         │
-┌───────▼───────┐       ┌─────────▼─────────┐      ┌───────▼───────┐
-│    MEDIA      │       │   OBSERVABILITY   │      │    SYSTEM     │
-├───────────────┤       ├───────────────────┤      ├───────────────┤
-│ Sonarr        │       │ Grafana           │      │ ArgoCD        │
-│ Radarr        │       │ Prometheus        │      │ Cert-Manager  │
-│ Prowlarr      │       │ Loki              │      │ Longhorn      │
-│ qBittorrent   │       │ Alloy             │      │ MetalLB       │
-│ Overseerr     │       │                   │      │ AdGuard Home  │
-└───────────────┘       └───────────────────┘      └───────────────┘
-```
 
 ---
 
