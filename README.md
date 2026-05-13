@@ -28,8 +28,9 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=luckystrike561&show_icons=true&theme=radical" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luckystrike561&layout=compact&theme=radical" height="150" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white" />
 </p>
 
 ---
